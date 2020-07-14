@@ -1,0 +1,70 @@
+.simple-form img
+{
+    width:100vw;
+    height:100vh;
+    position: relative;
+}
+.container {
+    border-radius: 15%;
+    left: 32vw;
+    top: 7vh;
+    opacity: 0.5;
+    background-color: black;
+    position: absolute ;
+    text-align: center;
+    height:420px;
+    width: 400px;
+    display: block;
+    text-align: center;
+    margin:20px;
+}
+.form1
+{
+    border-radius: 15%;
+    left: 32vw;
+    top: 7vh;
+    position: absolute;
+    text-align: center;
+    height:420px;
+    width: 400px;
+    display: block;
+    text-align: center;
+    margin:20px;
+}
+.simple-form .form1 input[type="text"],input[type="password"],input[type="email"],input[type="number"]{
+    background:none;
+    padding:15px;
+    margin:10px;
+    background: none;
+    outline: none;
+    border-radius: 25px;
+    border: 2px solid;
+    border-color: violet;
+    text-align: center;
+    color: honeydew;
+}
+::placeholder
+{
+    color: gainsboro;
+}
+.simple-form .form1 input[type="submit"]
+{
+    background: none;
+    width:100px;
+    height:50px;
+    padding: 15px;
+    margin:12px;
+    outline:none;
+    border-color: plum;
+    border-radius: 25%;
+    transition: 0.5s;
+}
+.simple-form .form1 input[placeholder="Submit"]
+{
+    color:gainsboro;
+}
+.simple-form .form1 input[type="submit"]:hover,.simple-form .form1 input[placeholder="Submit"]:hover
+{
+    background-color: plum;
+    color: black;
+}
